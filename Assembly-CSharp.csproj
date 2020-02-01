@@ -63,9 +63,16 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Object.cs" />
+    <Compile Include="Assets\Scripts\CameraController.cs" />
     <Compile Include="Assets\Scripts\PlayerController.cs" />
+    <Compile Include="Assets\Scripts\PortalSystem.cs" />
+    <Compile Include="Assets\Scripts\RemoveParent.cs" />
     <Reference Include="Unity.Timeline.Editor">
       <HintPath>C:/Users/Felipe/Documents/Felipe/Re-pair/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Cinemachine">
+      <HintPath>C:/Users/Felipe/Documents/Felipe/Re-pair/Library/ScriptAssemblies/Cinemachine.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VSCode.Editor">
       <HintPath>C:/Users/Felipe/Documents/Felipe/Re-pair/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
@@ -85,17 +92,14 @@
     <Reference Include="Unity.Rider.Editor">
       <HintPath>C:/Users/Felipe/Documents/Felipe/Re-pair/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
     </Reference>
+    <Reference Include="com.unity.cinemachine.editor">
+      <HintPath>C:/Users/Felipe/Documents/Felipe/Re-pair/Library/ScriptAssemblies/com.unity.cinemachine.editor.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.TextMeshPro">
       <HintPath>C:/Users/Felipe/Documents/Felipe/Re-pair/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.UI">
       <HintPath>C:/Users/Felipe/Documents/Felipe/Re-pair/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
-    </Reference>
-    <Reference Include="Cinemachine">
-      <HintPath>C:/Users/Felipe/Documents/Felipe/Re-pair/Library/ScriptAssemblies/Cinemachine.dll</HintPath>
-    </Reference>
-    <Reference Include="com.unity.cinemachine.editor">
-      <HintPath>C:/Users/Felipe/Documents/Felipe/Re-pair/Library/ScriptAssemblies/com.unity.cinemachine.editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>C:/Users/Felipe/Documents/Felipe/Game/Game_Dev/2019.3.0f6/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
